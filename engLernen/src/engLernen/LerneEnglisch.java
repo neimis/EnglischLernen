@@ -264,5 +264,6 @@ public class LerneEnglisch {
 		});
 		btnNewButton.setBounds(296, 153, 132, 20);
 		panel.add(btnNewButton);
+		
 	}
 }
