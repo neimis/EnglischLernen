@@ -24,9 +24,7 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
-import javax.swing.ImageIcon;
 import java.awt.Font;
-import javax.swing.JComboBox;
 
 /*
  * I created this simple application not even to save new english words
