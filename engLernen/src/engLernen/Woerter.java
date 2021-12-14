@@ -4,7 +4,6 @@ import java.io.Serializable;
 
 /* this class is for creating an word-object  */
 
-
 public class Woerter implements Serializable {
 
 	private String de;
