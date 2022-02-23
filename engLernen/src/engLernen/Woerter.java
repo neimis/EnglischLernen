@@ -5,6 +5,8 @@ import java.io.Serializable;
 /**
  * this class is for creation an word-object, which implements serializable interface
  * for reading Woerter Objects from the file
+ * 
+ * @author Julius Neimantas
  */
 
 public class Woerter implements Serializable {

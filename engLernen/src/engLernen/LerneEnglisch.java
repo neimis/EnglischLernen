@@ -29,6 +29,8 @@ import java.awt.Font;
 /**
  * I created this simple application not even to save new english words I have
  * heard or read but also to use it for practice to remember the words
+ * 
+ * @author Julius Neimantas
  */
 public class LerneEnglisch {
 
