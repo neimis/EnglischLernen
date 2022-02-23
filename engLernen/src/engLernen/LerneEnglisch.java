@@ -26,9 +26,10 @@ import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import java.awt.Font;
 
-/*
- * I created this simple application not even to save new english words
- * I have heard or read but also to use it for practice to remember the words */
+/**
+ * I created this simple application not even to save new english words I have
+ * heard or read but also to use it for practice to remember the words
+ */
 public class LerneEnglisch {
 
 	private JFrame frame;
@@ -37,10 +38,19 @@ public class LerneEnglisch {
 	private JTextArea englischTextArea;
 	private JButton speichern;
 	private JButton wortAuslesen;
+	/**
+	 * this list includes all the Woerter-objects
+	 */
 	private static List<Woerter> liste = new CopyOnWriteArrayList<Woerter>();
 	private JButton naechster;
+	/**
+	 * for counting the words
+	 */
 	private static int count;
 	private JButton btnNewButton_1;
+	/**
+	 * the file includes arraylist with Woerter-class-objects
+	 */
 	private static File f = new File("C:\\Users\\Cezar\\Documents\\ECLIPSE-workspace\\ProjectNotizBuch\\object.txt");
 
 	/**
@@ -264,6 +274,6 @@ public class LerneEnglisch {
 		});
 		btnNewButton.setBounds(296, 153, 132, 20);
 		panel.add(btnNewButton);
-		
+
 	}
 }
