@@ -106,7 +106,7 @@ public class LerneEnglisch {
 			}
 
 		} catch (EOFException e) {
-
+			e.printStackTrace();
 		}
 		return listeWoerter;
 	}
